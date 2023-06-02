@@ -17,5 +17,6 @@ if __name__ == '__main__':
     with gradio.Interface(predict,
                           "textbox",
                           "text",
-                          allow_flagging="never") as interface:
+                          allow_flagging="never",
+                          title="text to summarize") as interface:
         interface.launch()
