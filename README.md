@@ -85,7 +85,7 @@ graph TD
 
 ## Why Dagger
 
-Applications backed by LLMs are challenging to make production ready, LLMs add constraints to build automations pipelines for building, testing and deploying applications.
+Applications backed by LLMs are challenging to make production ready, LLMs add constraints to build automations pipelines for building, testing and deploying applications. (TODO: Luke strengthen this argument)
 
 Dagger provides several key features to build scalable, reproducible and portable CICD pipelines. This part outlines the benefits of Dagger in a context of an LLM-backed application.
 

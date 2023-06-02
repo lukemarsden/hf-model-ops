@@ -46,4 +46,5 @@ if __name__ == "__main__":
         # Run the tests
         test(client)
         # Deploy the app to HF
-        deploy(client, access_token, "samalba/demo")
+        # TODO: parameterize spaces name per env var HF_USER? And add env.example to repo?
+        deploy(client, access_token, "lukemarsden/demo")
